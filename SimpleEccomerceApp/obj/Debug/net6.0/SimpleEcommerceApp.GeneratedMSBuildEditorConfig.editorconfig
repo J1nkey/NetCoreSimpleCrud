@@ -12,7 +12,7 @@ build_property.RootNamespace = SimpleEcommerceApp
 build_property.ProjectDir = E:\Mine\Individual\Workspace\Backend\CS2022\JinkeyProjects\SimpleEccomerceApp\SimpleEccomerceApp\SimpleEccomerceApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = E:\Mine\Individual\Workspace\Backend\CS2022\JinkeyProjects\SimpleEccomerceApp\SimpleEccomerceApp\SimpleEccomerceApp
 build_property._RazorSourceGeneratorDebug = 
 
@@ -182,6 +182,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/Mine/Individual/Workspace/Backend/CS2022/JinkeyProjects/SimpleEccomerceApp/SimpleEccomerceApp/SimpleEccomerceApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Mine/Individual/Workspace/Backend/CS2022/JinkeyProjects/SimpleEccomerceApp/SimpleEccomerceApp/SimpleEccomerceApp/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Mine/Individual/Workspace/Backend/CS2022/JinkeyProjects/SimpleEccomerceApp/SimpleEccomerceApp/SimpleEccomerceApp/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Mine/Individual/Workspace/Backend/CS2022/JinkeyProjects/SimpleEccomerceApp/SimpleEccomerceApp/SimpleEccomerceApp/Views/Shared/Error.cshtml]

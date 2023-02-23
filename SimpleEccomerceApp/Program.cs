@@ -5,6 +5,7 @@ using SimpleEcommerceApp.Data;
 using SimpleEcommerceApp.Models.Commons;
 using SimpleEcommerceApp.Options;
 using SimpleEcommerceApp.Services;
+using SimpleEcommerceApp.Services.Products;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,8 +40,10 @@ builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
 
 builder.Services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddSingleton(typeof(ApplicationDapperContext));
+builder.Services.AddTransient<IProductRepository, ProductRepository>();
 
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews()
+    .AddRazorRuntimeCompilation();
 builder.Services.AddRazorPages();
 
 var app = builder.Build();

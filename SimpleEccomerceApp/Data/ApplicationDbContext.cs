@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using SimpleEcommerceApp.Models.Commons;
 using SimpleEcommerceApp.Data.Configurations;
 using SimpleEcommerceApp.Models;
+using SimpleEcommerceApp.Models.Products;
 
 namespace SimpleEcommerceApp.Data
 {

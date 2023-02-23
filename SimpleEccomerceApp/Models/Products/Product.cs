@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace SimpleEcommerceApp.Models
+namespace SimpleEcommerceApp.Models.Products
 {
     [Table("Products")]
     public class Product : EntityId, IEntityActivable
